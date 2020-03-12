@@ -1,0 +1,10 @@
+.banner {
+    height: 391px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #27273e;
+    background-size: 63%;
+}
+
+

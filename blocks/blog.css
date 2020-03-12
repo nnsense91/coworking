@@ -1,0 +1,140 @@
+/* Новости */
+
+.blog {
+    
+}
+
+.blog__block {
+    display: flex;
+}
+
+.blog__title--news {
+    padding-top: 18px;
+}
+
+.blog__text-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+}
+
+.blog__item {
+    padding-bottom: 45px;
+}
+
+.blog__pic-block {
+    width: 173.5px;
+    height: 173.5px;
+    display: inline-block;
+}
+
+.blog__pic-block img {
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.blog__list {
+    margin-top: 66px;
+}
+
+
+.blog__subtitle {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #221f1f;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 1px;
+}
+
+.blog__text-content p {
+    font-family: Roboto;
+    font-weight: 300;
+    color: #221f1f;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 7px;
+    max-width: 650px;
+}
+
+.blog__date {
+    font-family: Roboto;
+    font-weight: 300;
+    color: #656464;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Без аватарки */
+.blog__pic-block--without-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.blog__pic-block--without-avatar img{
+    display: block;
+    opacity: 0.3;
+}
+
+
+.blog--review {
+    margin-left: 18px;
+    padding-top: 32px;
+}
+
+.blog--review .blog__pic-block {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+}
+
+.blog--review .blog__title {
+    margin-top: 16px;
+}
+
+.blog--review .blog__list {
+    margin-top: 35px;
+}
+
+.blog--review .blog__text-content {
+    margin-left: 22px;
+}
+
+.blog--review .blog__text-content p {
+    font-family: GothamPro;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 700px;
+}
+
+.blog--review .blog__text-content h3 {
+    font-family: GothamPro;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blog--review .blog__date {
+    font-family: GothamPro;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.blog--review .blog__item {
+    padding: 0;    
+}
+
+.blog__line {
+    height: 2px;
+    width: 880px;
+    background-color: #f5f5f5;
+    margin-top: 23px;
+    margin-bottom: 22px;
+}

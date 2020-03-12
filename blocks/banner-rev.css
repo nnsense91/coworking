@@ -1,0 +1,22 @@
+.banner-reviews {
+    background-image: url('../img/banner-rev.jpg');
+    margin-top: 47px;
+    margin-left: 20px;
+}
+
+.banner-reviews p {
+    width: 276px;
+    font-family: GothamPro;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px 10px;
+}
+
+.banner-reviews strong {
+    font-weight: bold;
+    color: #ec1e79;
+}

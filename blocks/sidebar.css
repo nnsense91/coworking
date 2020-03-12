@@ -1,0 +1,127 @@
+.aside {
+    width: 26.3%;
+}
+
+.sidebar {
+}
+
+.sidebar--reviews {
+    padding-top: 14px;  
+}
+
+.sidebar--prices {
+    padding-top: 30px;
+}
+
+.sidebar__list {
+    display: flex;
+}
+
+.sidebar__item {
+    margin-left: 95px;
+}
+
+.sidebar__item:first-child {
+    margin-left: 0;
+}
+
+.sidebar__link span {
+  font-family: GothamPro;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #ec1e79;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
+.sidebar__link>.sidebar__item--selected {
+    color: #221f1f;
+}
+
+.sidebar__link {
+    display: block;
+}
+
+.sidebar__item-name {
+    
+}
+
+.sidebar__item-name::before {
+    content:'';
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    padding-right: 17px;
+    vertical-align: bottom;
+}
+
+.sidebar__item--icon-main::before {
+    background: url('../img/sidebar-sprite.png') -8px;
+}
+
+.sidebar__item--icon-star::before {
+    background: url('../img/sidebar-sprite.png') -316px;
+}
+
+.sidebar__item--icon-wallet::before {
+    background: url('../img/sidebar-sprite.png') -197px;
+}
+
+.sidebar__item--selected-star::before {
+    background: url('../img/sidebar-sprite.png') -236px;
+}
+
+.sidebar__item--selected-wallet::before {
+    background: url('../img/sidebar-sprite.png') -119px;
+}
+
+.sidebar__item-name:hover {
+    color: #221f1f;
+    transition: 0.3s;
+}
+
+.sidebar__item--icon-main:hover::before {
+    background: url('../img/sidebar-sprite.png') -45px;
+}
+.sidebar__item--icon-star:hover::before {
+    background: url('../img/sidebar-sprite.png') -236px;
+}
+.sidebar__item--icon-wallet:hover::before {
+    background: url('../img/sidebar-sprite.png') -119px;
+}
+
+/* сайдбар для главной */
+
+.sidebar--index .sidebar__item--icon-star::before {
+    background: url('../img/sidebar-sprite.png') -278px;
+}
+
+.sidebar--index .sidebar__item--icon-wallet::before {
+    background: url('../img/sidebar-sprite.png') -158px;
+}
+
+.sidebar--index .sidebar__link span {
+    color: #ffffff;
+}
+
+.sidebar--index .sidebar__link .sidebar__item--selected {
+    color: #ec1e79;
+}
+
+.sidebar--index .sidebar__item--icon-main:hover::before {
+    background: url('../img/sidebar-sprite.png') -8px;
+}
+.sidebar--index .sidebar__item--icon-star:hover::before {
+    background: url('../img/sidebar-sprite.png') -318px;
+}
+.sidebar--index .sidebar__item--icon-wallet:hover::before {
+    background: url('../img/sidebar-sprite.png') -197px;
+}
+
+.sidebar--index .sidebar__item-name:hover {
+    color: #ec1e79;
+    transition: 0.3s;
+}

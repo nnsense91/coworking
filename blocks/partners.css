@@ -1,0 +1,56 @@
+.partners {
+    border: 1px solid #e8e9ed;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 28px;
+}
+
+.partners__title {
+    padding-top: 22px;
+    font-family: GothamPro;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #221f1f;
+    text-transform: uppercase;
+}
+
+.partners__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.partners__item img {
+    height: 95%;
+    width: 95%;
+}
+
+.partners__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 46px;
+    max-width: 141px;
+    margin-left: 65px;
+}
+
+.partners__item {
+    filter: grayscale(90%);
+    margin-top: 39px;
+}
+
+.partners__item:first-child {
+    margin-top: 0;
+}
+
+.partners__item:hover {
+    filter: grayscale(0%);
+    transition: 0.3s;
+}

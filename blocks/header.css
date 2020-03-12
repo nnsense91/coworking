@@ -1,0 +1,21 @@
+.container--header {
+    height: 100%;
+}
+
+.header {
+    height: 76px;
+    background: #27273e;
+}
+
+.header__logo {
+    
+}
+
+.header__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
